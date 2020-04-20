@@ -5,14 +5,14 @@ import Routes from 'routes';
 import Topbar from 'components/Topbar/Topbar';
 
 function App() {
-  return (
-    <div className="App">
-        <Router>
-          <Topbar />
-          <Routes />
-        </Router>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Router>
+				<Topbar />
+				<Routes />
+			</Router>
+		</div>
+	);
 }
 
 export default App;
